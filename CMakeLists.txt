@@ -13,8 +13,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 )
 
 install(PROGRAMS
-  coco_services/scripts/launch_master_service
-  coco_services/scripts/launch_listener
+  launch/launch_master_service
+  launch/launch_listener
   
   DESTINATION lib/${PROJECT_NAME}
 )
